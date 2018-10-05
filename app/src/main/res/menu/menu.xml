@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/newgroup"
+    android:title="New group"
+    android:orderInCategory="1"/>
+
+    <item
+        android:orderInCategory="2"
+        android:title="New broadcast"
+        android:id="@+id/newbroadcast"
+        />
+    <item
+        android:id="@+id/Whatsappweb"
+        android:title="WhatsApp Web"
+        android:orderInCategory="3"
+        />
+    <item
+        android:orderInCategory="4"
+        android:title="Starrerd messages"
+        android:id="@+id/starredmesegs"
+        />
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:orderInCategory="5"/>
+</menu>
